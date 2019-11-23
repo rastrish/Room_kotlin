@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlWeekDay"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_gravity="right"
+    android:layout_margin="3dp"
+    android:padding="8dp"
+    android:background="@drawable/circle_shape">
+
+    <TextView
+        android:id="@+id/tvWeekDayFirstLetter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text=" E "
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+</RelativeLayout>

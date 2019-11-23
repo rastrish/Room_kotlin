@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval"
+            android:dither="true">
+
+            <corners
+                android:bottomRightRadius="100dp"
+                android:bottomLeftRadius="100dp"
+                android:topLeftRadius="100dp"
+                android:topRightRadius="100dp"/>
+
+            <solid android:color="#ccc" />
+
+        </shape>
+    </item>
+    <item android:bottom="3dp">
+        <shape android:shape="oval"
+            android:dither="true">
+            <solid android:color="@color/colorPrimaryDark"/> <!-- this one is ths color of the  Rounded Button -->
+            <corners
+                android:bottomRightRadius="100dp"
+                android:bottomLeftRadius="100dp"
+                android:topLeftRadius="100dp"
+                android:topRightRadius="100dp"/>
+
+
+
+        </shape>
+    </item>
+</layer-list>
